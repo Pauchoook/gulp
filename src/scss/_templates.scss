@@ -1,0 +1,17 @@
+%flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+%flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+%pseudo {
+    position: relative;
+    &::before, &::after {
+        content: "";
+        position: absolute;
+    }
+}

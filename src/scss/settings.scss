@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: #fff;
+    background-color: #040A0A;
+}
+ul,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+button {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    background: none;
+}
+input {
+    border: none;
+    outline: none;
+    background: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type='search']::-webkit-search-decoration, 
+input[type='search']::-webkit-search-cancel-button, 
+input[type='search']::-webkit-search-results-button, 
+input[type='search']::-webkit-search-results-decoration {
+	display: none;
+}
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+input[type="checkbox"] {
+    display: none;
+}
+textarea {
+    background: none;
+    resize: none;
+    outline: none;
+}
+input, select, textarea, button{font-family:inherit; color:inherit;}
+
+.container {
+    margin: 0 auto;
+}
